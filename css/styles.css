@@ -1,0 +1,15 @@
+header{
+    background-color: orange;
+    border-bottom: 2px solid black;
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin: 0;
+    height: 180px;
+}
+
+div#block{
+    
+    border-bottom: 2px solid black;
+}
+
