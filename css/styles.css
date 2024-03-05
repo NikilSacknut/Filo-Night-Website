@@ -8,8 +8,8 @@ header{
     height: 180px;
 }
 
-div#block{
-    
-    border-bottom: 2px solid black;
+nav{
+    border-bottom: 1px solid black;
+
 }
 
