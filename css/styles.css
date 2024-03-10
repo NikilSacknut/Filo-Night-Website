@@ -1,6 +1,16 @@
+*{
+    margin: 0;
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
 header{
     background-color: orange;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid brown;
     font-size: 60px;
     color: white;
     text-shadow: 2px 2px 2px black;
@@ -8,8 +18,38 @@ header{
     height: 180px;
 }
 
-nav{
-    border-bottom: 1px solid black;
-
+.navigation a{
+    color: white;
+    background-color: orangered;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    display: block;
 }
 
+.navigation ul{
+    background-color: orangered;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navigation a:hover{
+    background-color: brown;
+}
+
+.navigation li{
+    float: left;
+}
+
+.posters{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 25%;
+}
+
+.filo2021{
+    text-align: center;
+    
+}
